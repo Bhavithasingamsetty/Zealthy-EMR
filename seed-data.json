@@ -1,0 +1,117 @@
+{
+  "medications": [
+    "Lisinopril",
+    "Atorvastatin",
+    "Metformin",
+    "Amlodipine",
+    "Omeprazole",
+    "Metoprolol",
+    "Levothyroxine",
+    "Albuterol",
+    "Gabapentin",
+    "Hydrochlorothiazide"
+  ],
+  "dosages": [
+    "5mg",
+    "10mg",
+    "20mg",
+    "25mg",
+    "50mg",
+    "100mg",
+    "250mg",
+    "500mg",
+    "1000mg"
+  ],
+  "users": [
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440001",
+      "name": "Mark Johnson",
+      "email": "mark@example.com",
+      "password": "Password123!",
+      "appointments": [
+        {
+          "provider": "Dr. Sarah Smith",
+          "datetime": "2026-02-05T10:00:00",
+          "repeat": "monthly"
+        },
+        {
+          "provider": "Dr. Michael Chen",
+          "datetime": "2026-02-10T14:30:00",
+          "repeat": "none"
+        }
+      ],
+      "prescriptions": [
+        {
+          "medication": "Lisinopril",
+          "dosage": "10mg",
+          "quantity": 30,
+          "refill_on": "2026-02-15",
+          "refill_schedule": "monthly"
+        },
+        {
+          "medication": "Atorvastatin",
+          "dosage": "20mg",
+          "quantity": 30,
+          "refill_on": "2026-02-20",
+          "refill_schedule": "monthly"
+        }
+      ]
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440002",
+      "name": "Emily Davis",
+      "email": "emily@example.com",
+      "password": "Password123!",
+      "appointments": [
+        {
+          "provider": "Dr. Jennifer Williams",
+          "datetime": "2026-02-03T09:00:00",
+          "repeat": "weekly"
+        }
+      ],
+      "prescriptions": [
+        {
+          "medication": "Metformin",
+          "dosage": "500mg",
+          "quantity": 60,
+          "refill_on": "2026-02-08",
+          "refill_schedule": "monthly"
+        },
+        {
+          "medication": "Levothyroxine",
+          "dosage": "50mg",
+          "quantity": 30,
+          "refill_on": "2026-02-12",
+          "refill_schedule": "monthly"
+        }
+      ]
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440003",
+      "name": "Robert Brown",
+      "email": "robert@example.com",
+      "password": "Password123!",
+      "appointments": [
+        {
+          "provider": "Dr. James Anderson",
+          "datetime": "2026-02-07T11:00:00",
+          "repeat": "none"
+        },
+        {
+          "provider": "Dr. Lisa Martinez",
+          "datetime": "2026-02-14T15:00:00",
+          "repeat": "monthly"
+        }
+      ],
+      "prescriptions": [
+        {
+          "medication": "Amlodipine",
+          "dosage": "5mg",
+          "quantity": 30,
+          "refill_on": "2026-02-10",
+          "refill_schedule": "monthly"
+        }
+      ]
+    }
+  ]
+}
